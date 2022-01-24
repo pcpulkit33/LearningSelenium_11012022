@@ -8,7 +8,11 @@ public class DemoGuru99 {
 		guru.invokeBrowser("chrome");
 		guru.loginToApplication("mngr379944", "Ahapeve");
 		guru.addNewCustomer();
-//		guru.closeBrowser();
+		
+		  String customerId = guru.getCustomerId();
+		  System.out.println("Customer Id - "+customerId); 
+//		  guru.addAccount(customerId);
+//		  guru.closeBrowser();
+		  
 	}
-
 }
