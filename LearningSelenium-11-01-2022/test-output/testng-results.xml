@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7887" started-at="2022-02-03T16:01:06 IST" finished-at="2022-02-03T16:01:14 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7887" started-at="2022-02-03T16:01:06 IST" finished-at="2022-02-03T16:01:14 IST">
+      <class name="day3.Guru99ProjectUsingTestNGDepedancyTesting">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:day3.Guru99ProjectUsingTestNGDepedancyTesting@3fd7a715]" name="invokeBrowser" duration-ms="6335" started-at="2022-02-03T16:01:06 IST" finished-at="2022-02-03T16:01:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:day3.Guru99ProjectUsingTestNGDepedancyTesting@3fd7a715]" name="loginToApplication" duration-ms="587" started-at="2022-02-03T16:01:12 IST" depends-on-methods="day3.Guru99ProjectUsingTestNGDepedancyTesting.invokeBrowser" finished-at="2022-02-03T16:01:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr379944]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahapeve]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:day3.Guru99ProjectUsingTestNGDepedancyTesting@3fd7a715]" name="closeBrowser" duration-ms="920" started-at="2022-02-03T16:01:13 IST" depends-on-methods="day3.Guru99ProjectUsingTestNGDepedancyTesting.loginToApplication, day3.Guru99ProjectUsingTestNGDepedancyTesting.invokeBrowser" finished-at="2022-02-03T16:01:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- day3.Guru99ProjectUsingTestNGDepedancyTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="userId" value="mngr379944"></parameter>
+  <parameter name="userPass" value="Ahapeve"></parameter>
+    <classes>
+      <class name="day3.Guru99ProjectUsingTestNGDepedancyTesting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

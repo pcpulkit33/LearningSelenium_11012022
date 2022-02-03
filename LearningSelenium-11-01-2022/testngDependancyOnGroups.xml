@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  		<parameter name="browserType" value="chrome"></parameter>
+  		<parameter name="userId" value="mngr384375"></parameter>
+  		<parameter name="userPass" value="AgehynA"></parameter>
+  	<groups> 
+  		<run> 
+  			<include name="invokeBrowser"></include>
+  			<include name="Signin"></include>
+  		</run>
+  	</groups>	
+  <classes> 
+  <class name="day3.Guru99ProjectUsingTestNGExample"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
